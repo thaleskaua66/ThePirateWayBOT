@@ -1,2 +1,4 @@
 config.json
 .venv/
+cookies.txt
+cogs/__pycache__

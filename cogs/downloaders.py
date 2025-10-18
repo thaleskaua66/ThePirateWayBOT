@@ -22,6 +22,7 @@ ydl_mp3_opts = {
 	}],
 	"outtmpl": "file/%(title)s.%(ext)s",
 	"cookiefile": "cookies.txt",
+	"proxy": "213.149.182.98:8080",
 	"extractor_args": {"youtube": {"player_client": ["android", "tv"]}},
 }
 
