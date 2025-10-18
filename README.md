@@ -12,4 +12,4 @@ The bot needs a config.json with your own api keys for offline testing, it shoul
 ```
 The "API_KEY" in question is your Google console api key only needed for games online searches, the cse IDS are already preset, you can change to your own.
 
-The ffmpeg location is no longer needed till yt-dlp find a way to bypass you the sabpr or whatever it was called. 
+The ffmpeg location is no longer needed till yt-dlp find a way to bypass youtube sabpr or whatever it was called. 
