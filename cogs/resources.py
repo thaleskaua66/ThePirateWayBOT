@@ -155,8 +155,8 @@ class Resources(commands.Cog): # For resources commands, such as /games
 			"SoundCloud - `aHR0cHM6Ly9zb3VuZGNsb3VkLmNvbS8=`"
 		]
 		audio_ripping = [
-			"⭐ Cobalt - aHR0cHM6Ly9jb2JhbHQudG9vbHMv`",
-			"DoubleDouble - aHR0cHM6Ly9kb3VibGVkb3VibGUudG9wLw==`",
+			"⭐ Cobalt - `aHR0cHM6Ly9jb2JhbHQudG9vbHMv`",
+			"DoubleDouble - `aHR0cHM6Ly9kb3VibGVkb3VibGUudG9wLw==`",
 			"Squid - `aHR0cHM6Ly9zcXVpZC53dGYv`"
 		]
 		download = [
@@ -185,19 +185,19 @@ class Resources(commands.Cog): # For resources commands, such as /games
 
 		# Links
 		windows = [
-			"⭐ AppDoze - aHR0cHM6Ly9hcHBkb3plLm5ldC8=",
-			"⭐ Monkrus Adobe (:flag_ru:) - aHR0cHM6Ly93MTYubW9ua3J1cy53cy8=",
-			"⭐ CracksURL - aHR0cHM6Ly9jcmFja3N1cmwuY29tLw==",
-			"LRepacks (:flag_ir:) - aHR0cHM6Ly9scmVwYWNrcy5uZXQv",
-			"AudioZ - aHR0cHM6Ly9hdWRpb3ouZG93bmxvYWQv",
+			"⭐ AppDoze - `aHR0cHM6Ly9hcHBkb3plLm5ldC8=`",
+			"⭐ Monkrus Adobe (:flag_ru:) - `aHR0cHM6Ly93MTYubW9ua3J1cy53cy8=`",
+			"⭐ CracksURL - `aHR0cHM6Ly9jcmFja3N1cmwuY29tLw==`",
+			"LRepacks (:flag_ir:) - `aHR0cHM6Ly9scmVwYWNrcy5uZXQv`",
+			"AudioZ - `aHR0cHM6Ly9hdWRpb3ouZG93bmxvYWQv`",
 		]
 		mac = [
-			"⭐ AppKed - aHR0cHM6Ly93d3cubWFjYmVkLmNvbS8=",
-			"⭐ AppsTorrent (:flag_ru:) - aHR0cHM6Ly9hcHBzdG9ycmVudC5ydS8=",
-			"InsMac - aHR0cHM6Ly9pbnNtYWMub3JnLw==",
-			"Macintosh Garden - aHR0cHM6Ly9tYWNpbnRvc2hnYXJkZW4ub3JnLw==",
-			"NMac Hub - aHR0cHM6Ly9ubWFjLnRvL2h1Yi8=",
-			"NMac Download - aHR0cHM6Ly93d3cubWFjYXBwZG93bmxvYWQuY29tLw=="
+			"⭐ AppKed - `aHR0cHM6Ly93d3cubWFjYmVkLmNvbS8=`",
+			"⭐ AppsTorrent (:flag_ru:) - `aHR0cHM6Ly9hcHBzdG9ycmVudC5ydS8=`",
+			"InsMac - `aHR0cHM6Ly9pbnNtYWMub3JnLw==`",
+			"Macintosh Garden - `aHR0cHM6Ly9tYWNpbnRvc2hnYXJkZW4ub3JnLw==`",
+			"NMac Hub - `aHR0cHM6Ly9ubWFjLnRvL2h1Yi8=`",
+			"NMac Download - `aHR0cHM6Ly93d3cubWFjYXBwZG93bmxvYWQuY29tLw==`"
 		]
 
 		# Mounting embed
