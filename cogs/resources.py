@@ -15,7 +15,7 @@ class Resources(commands.Cog): # For resources commands, such as /games
 		ddl_links = [
 			"⭐ SteamRip - `aHR0cHM6Ly9zdGVhbXJpcC5jb20v`",
 			"⭐ GOG Games - `aHR0cHM6Ly9nb2ctZ2FtZXMudG8v`",
-			"⭐:penguin: JohnCena141 - `aHR0cHM6Ly8xMzM3eC50by91c2VyL2pvaG5jZW5hMTQxLw==`"
+			"⭐:penguin: JohnCena141 - `aHR0cHM6Ly8xMzM3eC50by91c2VyL2pvaG5jZW5hMTQxLw==`",
 			"AnkerGames - `aHR0cHM6Ly9hbmtlcmdhbWVzLm5ldC8=`",
 			"Ovagames - `aHR0cHM6Ly93d3cub3ZhZ2FtZXMuY29tLw==`",
 			"GameBounty - `aHR0cHM6Ly9nYW1lYm91bnR5LndvcmxkLw==`",
