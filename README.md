@@ -1,3 +1,7 @@
+## Open-source
+We're making it open-source in order to keep the bot alive, since I haven't found much time to update it. Feel free to contribute with your own changes, I'd be happy to review them.
+
+## Config
 The bot needs a config.json with your own api keys for offline testing, it should be like that:
 ```
 {
@@ -10,6 +14,4 @@ The bot needs a config.json with your own api keys for offline testing, it shoul
 	"FFMPEG_LOCATION": "ffmpeg-7.0.2/ffmpeg"
 } 
 ```
-The "API_KEY" in question is your Google console api key only needed for games online searches, the cse IDS are already preset, you can change to your own.
-
-The ffmpeg location is no longer needed till yt-dlp find a way to bypass youtube sabpr or whatever it was called. 
+The "API_KEY" in question is your Google console api key only needed for games online searches, the cse IDS are already preset, you can change to your own or just use mines.
