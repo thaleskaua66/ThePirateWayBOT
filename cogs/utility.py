@@ -38,37 +38,6 @@ class Utility(commands.Cog):  # For utility commands...
 	async def ping(self, ctx):  # Ping command just for convenience :)
 		await ctx.send("PONG!")
 
-	@commands.command(name="update", help="Update bot")
-	async def update(self, ctx):
-		url = "https://tpwb-packages.squareweb.app/" # Server for packages :D
-		packages = {
-			"steamrip.html": "https://tpwb-packages.squareweb.app/files/steamrip.html",
-			"steamgg.html": "https://tpwb-packages.squareweb.app/files/steamgg.html",
-			"elamigos.html": "https://tpwb-packages.squareweb.app/files/elamigos.html",
-			"dodi-repacks.html": "https://tpwb-packages.squareweb.app/files/dodi-repacks.html",
-		}
-
-		# Change it if you want
-		destiny_folder = "games_html"
-		os.makedirs(destiny_folder, exist_ok=True)
-
-		# Downloading the packages
-		for package, url in packages.items():
-			path = os.path.join(destiny_folder, package)
-
-			try:
-				response = requests.get(url)
-				response.raise_for_status()
-
-				with open(path, "wb") as f:
-					f.write(response.content)
-
-			except Exception as e:
-				print(f"Error while downloading {package}")
-				print(e)
-
-		await ctx.send("Update complete!")
-
 	# ---- SLASH COMMANDS ----
 	# Guide for new members :p
 	@app_commands.command(name="getting-started", description="A guide for The Pirate Way!")
